@@ -1,0 +1,37 @@
+[0|1|289]#NORMAL#: Log has been created!
+[0|1|293]#NORMAL#: Starting up core systems...
+[0|1|297]#NORMAL#: 	Starting up all subsystems...
+[0|1|300]#NORMAL#: 		Initializing OpenGL subsystem...
+[0|1|304]#NORMAL#: 			Initializing GLEW
+[0|1|316]#SUCCESS#: 			Initialized GLEW
+[0|1|319]#SUCCESS#: 		Initialized OpenGL subsystem!
+[0|1|323]#SUCCESS#: 	Done!
+[0|1|325]#SUCCESS#: Done!
+[0|1|654]#SUCCESS#: 	Sucessfully executed gleinfo.exe
+[0|1|658]#NORMAL#: Setting main window 
+[0|2|10]#NORMAL#: Context settings:
+[0|2|13]#NORMAL#: 	Current OpenGL version is: 3.3
+[0|2|16]#NORMAL#: 	Depth bits: 24
+[0|2|18]#NORMAL#: 	Stencil bits: 8
+[0|2|22]#NORMAL#: Loading FX files...
+[0|2|25]#NORMAL#: 	Setting filepath to :..\Resources\FX\
+[0|2|29]#SUCCESS#: 	Looking for file Basic.fx
+[0|2|33]#SUCCESS#: 		Basic.fx found! Returning contents
+[0|2|38]#NORMAL#: 	Closing Basic.fx
+[0|2|41]#NORMAL#: 	Popping Basic.fx
+[0|2|44]#NORMAL#: 	Looking for file MVP.fx
+[0|2|49]#SUCCESS#: 		MVP.fx found! Returning contents
+[0|2|56]#NORMAL#: 	Closing MVP.fx
+[0|2|61]#NORMAL#: 	Popping MVP.fx
+[0|2|64]#SUCCESS#: Done!
+[0|4|907]#NORMAL#: Shutting down Core
+[0|4|910]#NORMAL#: 	Shutting down all subsystems...
+[0|4|914]#NORMAL#: 		Shutting down OpenGL subsystem...
+[0|4|918]#SUCCESS#: 		Done!
+[0|4|921]#NORMAL#: 		Cleaning up after open files, this may take a while...
+[0|4|927]#SUCCESS#: 		Done!
+[0|4|930]#SUCCESS#: 	Done!
+[0|4|932]#NORMAL#: Destroying scene nodes, this may take a while...
+[0|4|937]#NORMAL#: 	Killing: Triangle
+[0|4|941]#SUCCESS#: Done!
+[0|4|943]#NORMAL#: Shutting down log..

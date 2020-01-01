@@ -1,0 +1,16 @@
+[0|0|312]##NORMAL## : Log has been created
+[0|0|312]##NORMAL## : Starting up core systems...
+[0|0|312]##NORMAL## : Starting up all subsystems...
+[0|0|312]##NORMAL## : Initializing OpenGL subsystem...
+[0|0|312]##NORMAL## : 	Initializing GLEW
+[0|0|321]##NORMAL## : 	Initialized GLEW
+[0|0|321]##NORMAL## : Done!
+[0|0|321]##NORMAL## : Done!
+[0|0|321]##NORMAL## : Done!
+[0|0|321]##NORMAL## : Setting main window 
+[0|0|450]##NORMAL## : Setting filepath to: ..\Resources\Shaders\
+[0|34|850]##NORMAL## : Shutting down Core
+[0|34|850]##NORMAL## : Shutting down all subsystems...
+[0|34|850]##NORMAL## : Shutting down OpenGL subsystem...
+[0|34|850]##NORMAL## : Done!
+[0|34|850]##NORMAL## : Done!

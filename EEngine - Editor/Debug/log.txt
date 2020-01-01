@@ -1,0 +1,23 @@
+[0|1|439]#NORMAL#: Log has been created!
+[0|1|463]#NORMAL#: Starting up core systems...
+[0|1|466]#NORMAL#: 	Starting up all subsystems...
+[0|1|470]#NORMAL#: 		Initializing OpenGL subsystem...
+[0|1|474]#NORMAL#: 			Initializing GLEW
+[0|1|505]#SUCCESS#: 			Initialized GLEW
+[0|1|509]#SUCCESS#: 		Initialized OpenGL subsystem!
+[0|1|514]#SUCCESS#: 	Done!
+[0|1|517]#SUCCESS#: Done!
+[0|1|906]#SUCCESS#: 	Sucessfully executed gleinfo.exe
+[0|1|911]#NORMAL#: Setting main window 
+[0|2|116]#NORMAL#: Context settings:
+[0|2|121]#NORMAL#: 	Current OpenGL version is: 3.3
+[0|2|127]#NORMAL#: 	Depth bits: 24
+[0|2|130]#NORMAL#: 	Stencil bits: 8
+[0|2|139]#NORMAL#: Loading FX files...
+[0|2|145]#NORMAL#: 	Setting filepath to :..\Resources\FX\
+[0|2|151]#SUCCESS#: 	Looking for file Basic.fx
+[0|2|156]#SUCCESS#: 		Basic.fx found! Returning contents
+[0|2|161]#NORMAL#: 	Closing Basic.fx
+[0|2|164]#NORMAL#: 	Popping Basic.fx
+[0|2|168]#NORMAL#: 	Looking for file MVP.fx
+[0|2|171]#SUCCESS#: 		MVP.fx found! Returning contents

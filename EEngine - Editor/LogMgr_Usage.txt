@@ -1,0 +1,29 @@
+LogMgr usage:
+
+When you want to outpud something to the log, please use : "LogMgr::out <<" and then what you want to output. 
+For example:
+LogMgr::out << "Hello World\n";
+
+If you want to use indenting, use the LogMgr::addIndent(count) and LogMgr::decrIndent(count) functions. Also, in order for the indents to be shown, you have to use the [ts]
+prefix in every string. This will output a timestamp and enable the indenting. This allows for usage such as outputting a filename+string without having wierd indents in
+the middle of the string.
+
+If you want to specify a special event, like DEBUG or FAILURE, use LogMgr::setLogPrio(ENUM)
+
+Example of full usage:
+
+LogMgr::out << "[ts]Starting model import...\n";
+LogMgr::addIndent(1);
+if(!loadModels()
+{
+	LogMgr::setLogPrio(FAILURE);
+	LogMgr::decrIndent(1);
+	LogMgr::out << "[ts]Failed to import models!\n";	
+	return;
+}
+LogMgr::setLogPrio(SUCCESS);
+LogMgr::decrIndent(1);
+LogMgr::out << "[ts]Successfully imported models!\n";
+
+
+

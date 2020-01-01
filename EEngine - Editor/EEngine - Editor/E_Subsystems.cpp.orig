@@ -1,0 +1,36 @@
+#include "E_Subsystems.h"
+using namespace EEngine;
+
+Subsystems::Subsystems()
+{
+}
+
+Subsystems::~Subsystems()
+{
+}
+
+bool Subsystems::initAllSubsystems()
+{
+	//Startup function for ALL subsystems
+	LogMgr::logMessage(LogMgr::NORMAL, "Starting up all subsystems...");
+	if(!E_GL::startup())
+		return false;
+	LogMgr::logMessage(LogMgr::NORMAL, "Done!");
+	return true;
+}
+
+bool Subsystems::shutdownAllSubsystems()
+{
+	//Shutdown function for ALL subsystems
+	LogMgr::logMessage(LogMgr::NORMAL, "Shutting down all subsystems...");
+	if(!E_GL::shutdown())
+		return false;
+	LogMgr::logMessage(LogMgr::NORMAL, "Done!");
+	return true;
+}
+
+bool Subsystems::updateAllSubsystems()
+{
+	E_GL::renderFrame();
+	return true;
+}

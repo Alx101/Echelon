@@ -1,0 +1,79 @@
+﻿Build started 2013-06-11 19:24:27.
+     1>Project "C:\EchoesEngine\EEngine - Editor\EEngine - Editor\EEngine - Editor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EEngine - Editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _EDITOR /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt E_SceneNode.cpp
+         E_SceneNode.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.exe" /INCREMENTAL:NO /NOLOGO angelscriptd.lib glew32.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-main-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" /MANIFEST /ManifestFile:"Debug\EEngine - Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.lib" /MACHINE:X86 "Debug\EEngine - Editor.res"
+         Debug\common_header.obj
+         Debug\E_Camera.obj
+         Debug\E_Config.obj
+         Debug\E_Core.obj
+         Debug\E_Custom_Algorithms.obj
+         Debug\E_Engine.obj
+         Debug\E_FX.obj
+         Debug\E_FXsystem.obj
+         Debug\E_Input.obj
+         Debug\E_ResourceMgr.obj
+         Debug\E_Testing.obj
+         Debug\E_Window.obj
+         Debug\E_FileMgr.obj
+         Debug\App.obj
+         Debug\E_Lines.obj
+         Debug\E_LogMgr.obj
+         Debug\E_FXprofile.obj
+         Debug\main.obj
+         Debug\E_Mesh.obj
+         Debug\E_Subsystems.obj
+         Debug\E_GL.obj
+         Debug\E_StateMgr.obj
+         Debug\E_SceneMgr.obj
+         Debug\E_SceneNode.obj
+         Debug\E_ScriptAbstr.obj
+         Debug\E_XMLDoc.obj
+         Debug\E_XMLParser.obj
+            Creating library C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.lib and object C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.exp
+     1>angelscriptd.lib(as_atomic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_atomic.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_builder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_builder.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_bytecode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_bytecode.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_callfunc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_callfunc.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_callfunc_x86.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_callfunc_x86.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_compiler.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_compiler.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_configgroup.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_configgroup.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_context.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_context.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_datatype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_datatype.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_gc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_gc.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_generic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_generic.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_globalproperty.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_globalproperty.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_memory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_memory.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_module.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_module.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_objecttype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_objecttype.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_outputbuffer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_outputbuffer.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_parser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_parser.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_restore.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_restore.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_scriptcode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_scriptcode.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_scriptengine.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_scriptengine.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_scriptfunction.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_scriptfunction.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_scriptnode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_scriptnode.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_scriptobject.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_scriptobject.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_string.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_string.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_string_util.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_string_util.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_thread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_thread.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_tokenizer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_tokenizer.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_typeinfo.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_typeinfo.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+     1>angelscriptd.lib(as_variablescope.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscriptd.lib(as_variablescope.obj)' or at 'C:\EchoesEngine\EEngine - Editor\Debug\vc100.pdb'; linking object as if no debug info
+         EEngine - Editor.vcxproj -> C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\EchoesEngine\EEngine - Editor\Debug\EEngine - Editor.exe;#1" /manifest "Debug\EEngine - Editor.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\EEngine - Editor.unsuccessfulbuild".
+         Touching "Debug\EEngine - Editor.lastbuildstate".
+     1>Done Building Project "C:\EchoesEngine\EEngine - Editor\EEngine - Editor\EEngine - Editor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62

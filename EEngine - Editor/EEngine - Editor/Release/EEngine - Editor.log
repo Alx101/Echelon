@@ -1,0 +1,113 @@
+﻿Build started 1/26/2013 3:51:47 PM.
+     1>Project "C:\Games\!Echoes Team\EEngine - Editor\EEngine - Editor\EEngine - Editor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\EEngine - Editor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _EDITOR /D _RELEASE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt E_Camera.cpp E_Config.cpp E_Core.cpp E_Custom_Algorithms.cpp E_Engine.cpp E_Input.cpp E_ResourceMgr.cpp E_Testing.cpp E_Window.cpp E_FileMgr.cpp App.cpp E_Lines.cpp E_LogMgr.cpp main.cpp E_Mesh.cpp E_Subsystems.cpp E_GL.cpp E_StateMgr.cpp E_SceneMgr.cpp E_SceneNode.cpp E_ScriptAbstr.cpp E_XMLDoc.cpp E_XMLParser.cpp
+         E_Camera.cpp
+         E_Config.cpp
+         E_Core.cpp
+         E_Custom_Algorithms.cpp
+         E_Engine.cpp
+         E_Input.cpp
+         E_ResourceMgr.cpp
+         E_Testing.cpp
+         E_Window.cpp
+     1>E_Window.cpp(114): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         E_FileMgr.cpp
+     1>E_FileMgr.cpp(190): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+         App.cpp
+         E_Lines.cpp
+     1>E_Lines.cpp(63): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E_Lines.cpp(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>E_Lines.cpp(65): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         E_LogMgr.cpp
+     1>E_LogMgr.cpp(42): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E_LogMgr.cpp(75): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E_LogMgr.cpp(108): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>E_LogMgr.cpp(141): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+         E_Mesh.cpp
+         E_Subsystems.cpp
+         E_GL.cpp
+     1>E_GL.cpp(24): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>E_GL.cpp(24): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>E_GL.cpp(24): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+         E_StateMgr.cpp
+         E_SceneMgr.cpp
+         E_SceneNode.cpp
+         Compiling...
+         E_ScriptAbstr.cpp
+         E_XMLDoc.cpp
+         E_XMLParser.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.exe" /NOLOGO angelscript.lib glew32.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-main.lib" "sfml-window.lib" "sfml-system.lib" /MANIFEST /ManifestFile:"Release\EEngine - Editor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.lib" /MACHINE:X86 "Release\EEngine - Editor.res"
+         Release\common_header.obj
+         Release\E_Camera.obj
+         Release\E_Config.obj
+         Release\E_Core.obj
+         Release\E_Custom_Algorithms.obj
+         Release\E_Engine.obj
+         Release\E_Input.obj
+         Release\E_ResourceMgr.obj
+         Release\E_Testing.obj
+         Release\E_Window.obj
+         Release\E_FileMgr.obj
+         Release\App.obj
+         Release\E_Lines.obj
+         Release\E_LogMgr.obj
+         Release\main.obj
+         Release\E_Mesh.obj
+         Release\E_Subsystems.obj
+         Release\E_GL.obj
+         Release\E_StateMgr.obj
+         Release\E_SceneMgr.obj
+         Release\E_SceneNode.obj
+         Release\E_ScriptAbstr.obj
+         Release\E_XMLDoc.obj
+         Release\E_XMLParser.obj
+            Creating library C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.lib and object C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.exp
+         Generating code
+         Finished generating code
+     1>angelscript.lib(as_scriptengine.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_scriptengine.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_configgroup.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_configgroup.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_thread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_thread.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_globalproperty.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_globalproperty.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_gc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_gc.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_datatype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_datatype.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_memory.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_memory.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_string.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_string.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_callfunc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_callfunc.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_objecttype.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_objecttype.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_scriptobject.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_scriptobject.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_builder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_builder.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_tokenizer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_tokenizer.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_scriptfunction.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_scriptfunction.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_atomic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_atomic.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_generic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_generic.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_module.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_module.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_context.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_context.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_string_util.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_string_util.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_callfunc_x86.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_callfunc_x86.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_scriptnode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_scriptnode.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_scriptcode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_scriptcode.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_outputbuffer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_outputbuffer.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_compiler.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_compiler.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_bytecode.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_bytecode.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_parser.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_parser.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_restore.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_restore.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_typeinfo.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_typeinfo.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+     1>angelscript.lib(as_variablescope.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'angelscript.lib(as_variablescope.obj)' or at 'C:\Games\!Echoes Team\EEngine - Editor\Release\vc100.pdb'; linking object as if no debug info
+         EEngine - Editor.vcxproj -> C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Games\!Echoes Team\EEngine - Editor\Release\EEngine - Editor.exe;#1" /manifest "Release\EEngine - Editor.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\EEngine - Editor.unsuccessfulbuild".
+         Touching "Release\EEngine - Editor.lastbuildstate".
+     1>Done Building Project "C:\Games\!Echoes Team\EEngine - Editor\EEngine - Editor\EEngine - Editor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:50.18
